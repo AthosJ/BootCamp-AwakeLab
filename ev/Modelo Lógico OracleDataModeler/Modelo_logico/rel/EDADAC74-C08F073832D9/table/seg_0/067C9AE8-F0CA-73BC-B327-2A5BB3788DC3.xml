@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="067C9AE8-F0CA-73BC-B327-2A5BB3788DC3" name="Pregunta">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>77796ACF-A741-3A95-59AC-06B54FF87FC1</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPregunta" id="C3E1FFD0-6FBD-C51F-E86C-E81C05FF44C1">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>D7E08A3F-6216-5B4E-8E74-9F1DF038D467</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Enunciado" id="5996A288-925C-D06C-C3F8-61C45EE21083">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>9BE6BF49-0CBC-93BB-DCD1-732BC1C75665</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PuntajePregunta" id="4625A697-C706-A8FC-40AD-3D4D4E44D9E0">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>27A1D651-810D-3530-EBE2-D503FF1CD307</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evaluacion_IdTest" id="7D678ADD-C944-0AF8-97A8-68FFD84D281A">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>4265EC6E-CF4E-9ADB-189E-C95E6A9CA96B</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA8F7D4E-4A2E-BCA8-3422-D7688E6B9CC6" referredColumn="2EF339A3-86A0-34F9-3CC3-6FAA7F0E6F7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F661316-57D3-5FAD-D6F6-C786EAB40A17" name="Pregunta_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>A5DC7D89-2347-CF37-6131-E69D8E05C5E3</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3E1FFD0-6FBD-C51F-E86C-E81C05FF44C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C42C226D-721C-7360-CE3F-1933EDEB46D0" name="Pregunta_Evaluacion_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>B2D4B6A5-F844-AB4C-963D-68FE49136750</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D678ADD-C944-0AF8-97A8-68FFD84D281A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

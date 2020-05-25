@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FFB1203-A05B-ED25-C491-71EEBD49F5C8" name="Alternativa">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>34B6B148-BE88-3A6E-F3C0-B52B987E487C</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAlternativa" id="1DAA8533-523F-081A-FF48-D8DD1BA400F5">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>25415D08-0D8F-F4E3-7A64-E028DBF1F498</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PuntajeAlternativa" id="628FFD16-B7EF-CD5A-AC79-3530AF0E74D0">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>11E70451-B855-1E28-F25D-41F2D4E965F9</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="7F7A8062-8DCA-4FB5-ACA4-44CC1F93BC62">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>72CDCA4E-77B9-2DC5-686D-014CAF719011</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregunta_IdPregunta" id="4E228129-AB54-2E84-9085-042C01134BDA">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>B1928F0E-FC15-0E11-5DB1-2B1A64D046DC</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAFED1E6-2032-80B7-8E09-EA09B070B423" referredColumn="5FCD2CEF-D8B8-EA44-441B-DF87B93EC670"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45C85DB3-26F6-0842-1808-FA61A69D8498" name="Alternativa_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>CE0DFF05-32D9-A65A-EDC9-64691B921E5B</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DAA8533-523F-081A-FF48-D8DD1BA400F5"/>
+<colUsage columnID="4E228129-AB54-2E84-9085-042C01134BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA4B5014-54C2-3CCD-35D0-4A173D7BE62C" name="Alternativa_Pregunta_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>8CD2E8C3-B2CF-4E72-8EEF-F9930872E76E</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E228129-AB54-2E84-9085-042C01134BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

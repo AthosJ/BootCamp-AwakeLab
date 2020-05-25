@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F80647E-AB7B-4A8D-BFB8-9D5B970CEA0E" name="Autor">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>BF6D3FC7-F3A7-3381-A494-D10208B365EE</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAutor" id="93E0407C-81B6-9234-E3FB-95EE3EDA8D3B">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>FD7BB6D3-9DB8-A760-FCCC-25062FB55D1E</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="061F5EB2-04D7-F17A-CB38-3947AA6CE265">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>4E67DE20-38EE-E2C2-D3B6-9317F93B4628</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0047BD48-6B5E-05A0-A039-48939B3A7A28" name="Autor_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>0A010273-9515-4D5D-9723-795A892CE66A</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93E0407C-81B6-9234-E3FB-95EE3EDA8D3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5760BD09-625D-E84C-A970-DDFECE9A3A30" name="Autor_Nombre_UN">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>878C143A-CE9D-618E-27FB-F9AC9B96AFF6</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061F5EB2-04D7-F17A-CB38-3947AA6CE265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

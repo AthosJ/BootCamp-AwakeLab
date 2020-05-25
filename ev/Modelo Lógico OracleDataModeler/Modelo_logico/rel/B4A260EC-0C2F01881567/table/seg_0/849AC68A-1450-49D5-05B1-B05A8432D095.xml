@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="849AC68A-1450-49D5-05B1-B05A8432D095" name="Pregunta">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>77796ACF-A741-3A95-59AC-06B54FF87FC1</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPregunta" id="5FCD2CEF-D8B8-EA44-441B-DF87B93EC670">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>D7E08A3F-6216-5B4E-8E74-9F1DF038D467</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Enunciado" id="95B88550-5D7F-FB3F-CDB0-2793A7EC934C">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>9BE6BF49-0CBC-93BB-DCD1-732BC1C75665</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PuntajePregunta" id="F41155FE-14B9-D497-366F-56470B4473E0">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>27A1D651-810D-3530-EBE2-D503FF1CD307</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68859A4F-E35F-4DBF-083A-3A3E288781C5" name="Pregunta_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>A5DC7D89-2347-CF37-6131-E69D8E05C5E3</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FCD2CEF-D8B8-EA44-441B-DF87B93EC670"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E62500F-F891-4550-C87C-FD43C310DD2A" name="Programa">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 00:13:22 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="EDADAC74-806C-FB32-C71F-C08F073832D9" value="true"/>
+<item key="B4A260EC-1B01-B4E6-9964-0C2F01881567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPrograma" id="A51461E8-77A2-AD9D-9D82-A399CE996F56">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 00:13:27 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="EDADAC74-806C-FB32-C71F-C08F073832D9" value="true"/>
+<item key="B4A260EC-1B01-B4E6-9964-0C2F01881567" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="59086F37-6F6C-6748-13BC-3E1F95F53B0A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 00:13:40 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="EDADAC74-806C-FB32-C71F-C08F073832D9" value="true"/>
+<item key="B4A260EC-1B01-B4E6-9964-0C2F01881567" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA7F5D4F-3878-A9D4-6534-7485A4D95749" name="Programa PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 00:13:39 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EDADAC74-806C-FB32-C71F-C08F073832D9" value="false"/>
+<item key="B4A260EC-1B01-B4E6-9964-0C2F01881567" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A51461E8-77A2-AD9D-9D82-A399CE996F56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

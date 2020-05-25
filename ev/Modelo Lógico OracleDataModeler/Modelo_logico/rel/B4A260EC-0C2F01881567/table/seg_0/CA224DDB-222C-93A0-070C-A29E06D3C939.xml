@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA224DDB-222C-93A0-070C-A29E06D3C939" name="Estudiante_Resultado">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Estudiante_IdEstudiante" id="F206FDBD-2134-0C94-8D98-902407229CA7">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74F58E43-AE63-446F-A366-E62B136338CA" referredColumn="F9B8EDA2-BE65-3CA5-EEEB-6EB13427D51A"/>
+</associations>
+</Column>
+<Column name="Resultado_IdResultado" id="1743EE74-D05D-DCC0-A94D-29F63FBA0033">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B16C16CD-416B-C179-B0B5-E70E6C2DDDE8" referredColumn="1E94A67D-FED2-CBE2-CB00-027FD03B460F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="415BFDEE-EFFA-D24D-65EC-A21A932797B9" name="Estudiante_Resultado_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F206FDBD-2134-0C94-8D98-902407229CA7"/>
+<colUsage columnID="1743EE74-D05D-DCC0-A94D-29F63FBA0033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBC835AA-BA2C-AEF0-EB5C-E859DAA79035" name="Estudiante_Resultado_Estudiante_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>1679DD02-DC59-94CA-5BEB-9FE6BE46DA90</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F206FDBD-2134-0C94-8D98-902407229CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9260F15C-E757-4E75-D843-137209AB8529" name="Estudiante_Resultado_Resultado_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:40 UTC</createdTime>
+<generatorID>1679DD02-DC59-94CA-5BEB-9FE6BE46DA90</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1743EE74-D05D-DCC0-A94D-29F63FBA0033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

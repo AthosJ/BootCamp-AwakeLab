@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="417ED2AF-C63A-F4A3-288D-A8D4E790DEEE" name="Resultado">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>0A12D1C8-B703-CB0D-D488-599CA5EDA9F5</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdResultado" id="D73C047C-63E6-17FC-DCE9-39F00CBD12ED">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>C8DA949F-08DD-DD71-F76D-AA195C40D75A</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PuntajeObtenido" id="F2D39DF2-CE3D-23F8-3136-EBBCF53226AC">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>A1EC3536-938E-0C9D-92B3-2819A7C191CF</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadCorrectas" id="5ED0FE45-6BB4-79EA-7CD2-7DCDAE564870">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>C7437E0F-82E8-4215-100F-CD18AAE99F48</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadIncorrectas" id="EE547DDC-92BC-F0B7-B175-B9170021C52D">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>E27F0799-70B7-DD0A-81D8-5CA3E16BDD5F</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota" id="BE577DD3-8462-5AEB-8D8E-D1C17D3845FA">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>7931477B-7018-21F4-40F7-4EB94104A227</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="C24470E2-3253-B7EC-D3EF-48E3B07629A6">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>4328C46D-3837-7505-A80C-A3C2F0F8B7DB</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estudiante_IdEstudiante" id="3519CB9D-0B02-14B7-5303-293DC2355A53">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>C07A4E31-73B4-468E-7FB1-21EE604D5D75</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="939855B2-8E2E-B355-EB2C-6423E4E452F6" referredColumn="73030D27-7049-1796-4779-6813B6596668"/>
+</associations>
+</Column>
+<Column name="Evaluacion_IdTest" id="BD8C183A-77BE-5504-F870-79BE7E59BF71">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>3AAC7C66-15F5-BE2C-223E-E9DD15BAE4FA</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D372A771-7516-2966-1154-095781F0D3B7" referredColumn="2EF339A3-86A0-34F9-3CC3-6FAA7F0E6F7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="162C9EA4-CFC9-2DD3-EC51-B7ED6D55BB9C" name="Resultado_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>37BE090B-BEFB-16DF-D38F-AE08C564B67B</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D73C047C-63E6-17FC-DCE9-39F00CBD12ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D149F44-9922-791D-1545-68BB0B0B775F" name="Resultado_Estudiante_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>FB2C3800-CDDC-2723-2BFD-60B207B56B88</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3519CB9D-0B02-14B7-5303-293DC2355A53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9E74327-3650-24C0-F59A-353F15E95CF2" name="Resultado_Evaluacion_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-16 21:31:25 UTC</createdTime>
+<generatorID>FD82F81D-3101-B3A5-72B8-6C05A18103DD</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD8C183A-77BE-5504-F870-79BE7E59BF71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
