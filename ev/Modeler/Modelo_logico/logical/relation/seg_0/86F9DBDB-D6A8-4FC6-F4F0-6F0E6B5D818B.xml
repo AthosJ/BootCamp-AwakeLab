@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Programa_Unidad" directorySegmentName="seg_0" id="86F9DBDB-D6A8-4FC6-F4F0-6F0E6B5D818B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 00:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="EDADAC74-806C-FB32-C71F-C08F073832D9" value="true"/>
+<item key="B4A260EC-1B01-B4E6-9964-0C2F01881567" value="true"/>
+</engineerTo>
+<sourcePk>EA7F5D4F-3878-A9D4-6534-7485A4D95749</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E62500F-F891-4550-C87C-FD43C310DD2A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05BAEE8B-7A14-175D-5178-89BBBCBC1704</targetEntity>
+<transferable>true</transferable>
+</Relation>

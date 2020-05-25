@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A1F1F02-B891-6616-682A-0F57ED36E8FF" name="Programa_Resultado">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:41 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Programa_IdPrograma" id="8AECA9D7-A36F-DE4E-AE8C-68D2A9BDBECE">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:41 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4DFF08A-2882-010B-D803-55376FBE0CA2" referredColumn="78442EA9-93D8-D730-C0BB-BABBBE80A034"/>
+</associations>
+</Column>
+<Column name="Resultado_IdResultado" id="55E97E00-1E2D-91B3-1C90-64D8AA21117B">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:41 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB41132-0BFD-E310-BCF8-33CE9CF575BB" referredColumn="1E94A67D-FED2-CBE2-CB00-027FD03B460F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B2E7B65-183C-B15D-CABF-8D27EA9E862B" name="Programa_Resultado_PK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:41 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AECA9D7-A36F-DE4E-AE8C-68D2A9BDBECE"/>
+<colUsage columnID="55E97E00-1E2D-91B3-1C90-64D8AA21117B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99EDB571-B254-601B-3CA1-1509965D3AEA" name="Programa_Resultado_Programa_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:41 UTC</createdTime>
+<generatorID>F920DA92-75CC-3C1B-4472-C56D038E4A06</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AECA9D7-A36F-DE4E-AE8C-68D2A9BDBECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D3CBEB3-BBDF-4576-9A1F-F102F255B612" name="Programa_Resultado_Resultado_FK">
+<createdBy>Kathy</createdBy>
+<createdTime>2020-03-14 14:58:41 UTC</createdTime>
+<generatorID>F920DA92-75CC-3C1B-4472-C56D038E4A06</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55E97E00-1E2D-91B3-1C90-64D8AA21117B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
